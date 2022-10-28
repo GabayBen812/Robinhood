@@ -1,5 +1,8 @@
+import sys
+
 def main():
-    print("lol aviv gay")
+    promo = sys.argv[1]
+    print("Promo Code: " + promo)
 
 if __name__ == '__main__':
     main()
